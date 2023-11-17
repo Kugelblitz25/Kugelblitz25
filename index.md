@@ -1,7 +1,5 @@
 ---
-title: Vighnesh Nayak changed
-name: Vighnesh Nayak
-title-heading: false
+title: Vighnesh Nayak
 ---
 
 # Hello World!
