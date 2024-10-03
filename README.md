@@ -1,5 +1,3 @@
-# Vighnesh Hareesh Nayak
-
 ## 👨‍🎓 Education
 - B.Tech in Mechanical Engineering, Indian Institute of Technology Bombay
 - Minor: Artificial Intelligence and Data Science
