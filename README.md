@@ -39,6 +39,20 @@ AI | Machine Learning | Robotics
 - 📈 **Results**: Successfully separated multiple instrument tracks with minimal artifacts
 - 🔗 [Project Repository](#)
 
+### Local Moodle: Automated Moodle Scraper
+- 📥 Developed a Python script to automate the downloading of files and posts from Moodle courses.
+- 🔍 Implementation Details:
+  - Utilizes **Selenium** and **WebDriver** for browser automation.
+  - Scrapes course information from the Moodle homepage, creating organized folders for each course.
+  - Downloads course materials (e.g., PDFs) that haven't been previously downloaded.
+  - Extracts and saves forum posts along with any attachments.
+- 📊 **Results**:
+  - Streamlined the process of accessing and organizing course materials.
+  - Enhanced user experience by automating repetitive tasks associated with Moodle.
+  - Tailored specifically for use with the Moodle version at the Indian Institute of Technology Bombay (IITB).
+- 🛠️ **Tech Stack**: Python, Selenium, BeautifulSoup
+- 🔗 [Project Repository](https://github.com/Kugelblitz25/LocalMoodle)
+
 ### Joint Dictionary Learning for Color Image Demosaicing
 - 📸 Developed an advanced image processing algorithm without prior training data
 - 🔍 Implementation Details:
