@@ -16,19 +16,21 @@ AI | Machine Learning | Robotics
 
 # 🚀 Featured Projects
 
-### Machine Learning-based Video Surveillance System (Ongoing)
-- 📊 Developing an advanced multi-camera tracking system with real-time processing
-- 🎯 Key Features:
-  - Face detection and timestamp extraction
-  - Wearables and unique identifier tracking
-  - Multi-camera person tracking across different angles
-  - Activity summarization and security logging
-- 🛠️ **Tech Stack**: Python, OpenCV, TensorFlow, Deep Learning
-- 🔗 [Project Repository](#)
+### Sign Language Video to Audio Conversion
+- 🎥 Developed a system to convert sign language videos into audio outputs without relying on text.
+- 🔍 Implementation Details:
+  - Utilized a modified I3D model for feature extraction from video data.
+  - Processed the WLASL-2000 dataset to generate spectrograms using Tacotron 2 and Hifi GAN models.
+  - Used Non-Maximal Suppression for continuous sign identification.
+- 📊 **Results**:
+  - Achieved effective translation of sign language into corresponding audio descriptions.
+  - Enhanced model accuracy through extensive data preprocessing and augmentation.
+- 🛠️ **Tech Stack**: Python, Pytorch, PytorchVideo, Librosa, Numpy
+- 🔗 [Project Repository](https://github.com/Kugelblitz25/sign2speech)
 
 ### Musical Instruments Separation Using Deep Neural Networks
 - 🎵 Implemented audio source separation using deep learning techniques
-- 💡 Technical Details:
+- 🔍 Implementation Details:
   - Utilized MUSDB-18 dataset with 44100Hz to 8192Hz downsampling
   - Performed Short Term Fourier Transform (STFT) for spectrogram generation
   - Implemented U-Net architecture for semantic segmentation
@@ -37,7 +39,6 @@ AI | Machine Learning | Robotics
 - 📈 **Results**: Successfully separated multiple instrument tracks with minimal artifacts
 - 🔗 [Project Repository](#)
 
-
 ### Joint Dictionary Learning for Color Image Demosaicing
 - 📸 Developed an advanced image processing algorithm without prior training data
 - 🔍 Implementation Details:
@@ -45,18 +46,18 @@ AI | Machine Learning | Robotics
   - Developed patch-based processing pipeline
   - Implemented joint sparse demosaicing dictionary learning
 - 📊 **Results**: Achieved 6.67% mean log PSNR improvement over GCBI
-- 🛠️ **Tech Stack**: MATLAB, Image Processing Toolbox
+- 🛠️ **Tech Stack**: Python, OpenCV, Numpy
 - 🔗 [Project Repository](https://github.com/Kugelblitz25/DictionaryLearningForDemosaicking)
 
 ### Cargo Bots: Swarm Robotics System
 - 🤖 Built a warehouse simulation model using coordinated micro-controller bots
-- 🔧 Technical Implementation:
+- 🔍 Implementation Details:
   - ArUco marker-based localization using overhead camera
   - A* algorithm for priority-based path planning
   - Collision-free trajectory generation
   - PID feedback control implementation on ESP32
-- 📈 **Achievements**: Successfully demonstrated autonomous cargo transport with multiple bots
-- 🛠️ **Tech Stack**: Python, OpenCV, ESP32, PID Control
+- 📈 **Results**: Successfully demonstrated autonomous cargo transport with multiple bots
+- 🛠️ **Tech Stack**: Python, OpenCV, ESP32
 - 🔗 [Project Repository](https://github.com/Kugelblitz25/Swarm-Robotics)
 
 ### IoT Monitoring System (Zwilling Labs Internship)
@@ -71,7 +72,7 @@ AI | Machine Learning | Robotics
 
 ### Topology Optimization for Robotic Gripper
 - 🦾 Developed optimization framework for robotic gripper design
-- 💡 Implementation Details:
+- 🔍 Implementation Details:
   - FEniCS-based topology optimization
   - SIMP algorithm for material distribution
   - 3D visualization using PyVista
